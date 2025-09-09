@@ -1,0 +1,1 @@
+export function getUser(){try{return JSON.parse(localStorage.getItem('user')||'null')}catch(e){return null}}
